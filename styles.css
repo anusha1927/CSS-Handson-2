@@ -12,6 +12,8 @@ body {
 .container1 {
 	display: flex;
 	padding: 20px;
+	flex-wrap: wrap;
+	flex-direction: row;
 }
 .box {
 	background-color: black;
@@ -44,6 +46,8 @@ body {
 }
 .container2 {
 	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
 	margin-left: 40px;
 	align-items: center;
 }
