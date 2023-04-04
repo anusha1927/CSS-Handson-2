@@ -1,0 +1,126 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-image: url(./background_image.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 7px groove greenyellow;
+}
+.container1 {
+	display: flex;
+	padding: 20px;
+}
+.box {
+	background-color: black;
+	color: white;
+	font-style: italic;
+	font-weight: bold;
+	border: 5px solid #e40707;
+	border-radius: 20px;
+	padding: 20px 10px;
+	font-size: 20px;
+}
+.content1 {
+	height: 100px;
+	width: 300px;
+}
+.content2 {
+	height: 60px;
+	width: 400px;
+	margin-left: -145px;
+	margin-top: 8px;
+	border-radius: 25px;
+	text-align: center;
+}
+.content3 {
+	height: 120px;
+	width: 300px;
+	margin-left: 400px;
+	text-align: center;
+	line-height: 30px;
+}
+.container2 {
+	display: flex;
+	margin-left: 40px;
+	align-items: center;
+}
+.circle {
+	width: 300px;
+	height: 300px;
+	border: 5px solid grey;
+	border-radius: 50%;
+	color: black;
+	background-color: darkcyan;
+	text-decoration: underline;
+	font-style: italic;
+	font-weight: bold;
+	margin-right: 200px;
+	font-size: medium;
+}
+.circletext1 {
+	margin: 60px 0px 20px 60px;
+}
+.circletext2 {
+	margin: 20px 10px;
+}
+.circletext3 {
+	margin: 20px 0px 0px 60px;
+}
+.form {
+	width: 350px;
+	height: auto;
+	border: 5px dashed crimson;
+	color: crimson;
+	background-color: white;
+	text-align: center;
+}
+.formhead {
+	font-weight: bold;
+	font-size: x-large;
+	padding: 10px;
+}
+.forminput {
+	padding: 10px 0px;
+}
+.formbutton {
+	padding: 2px;
+	text-align: center;
+}
+.menu {
+	text-align: center;
+	margin: 30px auto;
+	width: 400px;
+}
+
+.container3 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.menubox {
+	background-color: cyan;
+	width: 300px;
+	height: 200px;
+	border: 2px solid green;
+	border-radius: 20px;
+	margin: 30px;
+	color: darkslateblue;
+}
+.list {
+	margin-left: 30px;
+	padding: 10px;
+	text-align: center;
+}
+.listhead {
+	font-size: xx-large;
+	font-weight: bold;
+	text-align: center;
+	padding: 10px;
+}
+.box1 {
+	height: auto;
+}
