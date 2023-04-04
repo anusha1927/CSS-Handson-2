@@ -38,8 +38,9 @@ body {
 	text-align: center;
 }
 .content3 {
-	height: 120px;
+	height: auto;
 	width: 300px;
+	padding-bottom: 0px;
 	margin-left: 400px;
 	text-align: center;
 	line-height: 30px;
